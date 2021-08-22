@@ -113,6 +113,7 @@
 </script>
 <br>
 <!--DECODING THE CIPHER-->
+
 <h2 class="cipher_title" style="text-align: left; padding: 10px;">Decrypting Your Text</h2>
 <p class="p">Here is a decryptor that I made using JavaScript. Enter the original message (without spaces only!) to get your decryption.<b><u>(This is still under construction)</u></b></p>
 
