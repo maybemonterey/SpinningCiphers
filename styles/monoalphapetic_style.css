@@ -1,0 +1,52 @@
+
+.textarea {
+    display: block;
+    font-family: "Andale Mono";
+    font-size: 17px;
+    padding: 10px;
+    font-weight: 100;
+    border: 3px solid darkslategrey;
+    margin: 20px;
+    background-color: white;
+    width: calc(100% - 65px);
+}
+
+.btn{
+    float: right;
+    display: block;
+    font-family: "Andale Mono";
+    font-size: 17px;
+    font-weight: 100;
+    border: 3px solid black;
+    background-color: #6CD9FF;
+    width: 25%;
+}
+
+.btn:hover{
+    background-color: #55d6aa;
+}
+
+#encrypted{
+    border-color: black;
+    background-color: #6CD9FF;
+    color: black;
+}
+
+.mainContainer {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+hr{
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.encrypt-logo {
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}

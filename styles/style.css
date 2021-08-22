@@ -1,0 +1,57 @@
+/* BODY */
+.cipher_title{
+    text-align: center;
+    font-family: 'Andale Mono';
+}
+
+.p{
+    text-align: justify;
+    font-weight: 30;
+    font-family: "Andale Mono";
+    padding-left: 10px;
+    line-height: 24px;
+}
+
+links ul li a{
+    font-family: "Andale Mono";
+    font-weight: 300;
+    color: #81B3D7;
+    text-transform: uppercase;
+    line-height: 40pt;
+}
+
+links ul li a:hover{
+    color: darkslategrey;
+    transition: ease-in 250ms;
+}
+
+.footer{
+    text-align: center;
+    bottom: 3px;
+    width: 100%;
+    color: #444;
+}
+
+.footer a{
+    color: #444444;
+}
+
+.footer a:hover{
+    color: #6CD9FF;
+    transition: ease-in 250ms;
+}
+
+.p a{
+    color: #444444;
+}
+
+.p a:hover{
+    color: #6CD9FF;
+    transition: ease-in 250ms;
+}
+
+.centerimage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

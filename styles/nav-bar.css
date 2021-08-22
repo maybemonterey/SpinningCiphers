@@ -1,0 +1,74 @@
+.body{
+    font-family: 'Andale Mono';
+    font-weight: 900;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header{
+    background: #6CD9FF;
+}
+
+header::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+
+.logo{
+    float: left;
+    padding: 10px 0;
+}
+
+nav{
+    float: right;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 30px;
+
+    position: relative;
+}
+
+nav ul li a{
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    color: black;
+}
+
+nav ul li a::before{
+    content:'';
+    display: block;
+    height: 5px;
+    background-color: #444;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 150ms;
+}
+
+nav ul li a:hover::before{
+    width: 100%;
+}
+
+.dropdown{
+    margin-right: -20px;
+    margin-left: 50px;
+}

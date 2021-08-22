@@ -1,0 +1,40 @@
+.btn{
+    margin-right: 25%;
+    margin-left: 37%;
+    background-color: #6CD9FF;
+    display: block;
+    font-family: "Andale Mono";
+    font-size: 17px;
+    font-weight: 100;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    width: 25%;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #55d6aa;
+    transition: ease-in 250ms;
+}
+.sub-btn{
+    margin-right: 25%;
+    margin-left: 39.5%;
+    background-color: #6CC2FF;
+    display: block;
+    font-family: "Andale Mono";
+    font-size: 17px;
+    font-weight: 100;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    width: 20%;
+    text-decoration: none;
+}
+
+.sub-btn:hover{
+    background-color: #FFBB9A;
+    transition: ease-in 250ms;
+}
+
+a{
+    text-decoration: none;
+}
